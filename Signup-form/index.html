@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="signup">
+        <div id="field">
+            <label>Name:</label><br>
+            <input id="username" type="text" placeholder="Your Name">
+            <p id="nameError" class="error"></p>
+        </div>
+        <div id="field">
+            <label>Email:</label><br>
+            <input id="email" type="text" placeholder="name@example.com">
+            <p id="emailError" class="error"></p>
+        </div>
+        <div id="field">
+            <label>Password:</label><br>
+            <input id="password" type="password" placeholder="At least 8 characters">
+            <p id="passwordError" class="error"></p>
+        </div>
+        <div id="field">
+            <label>Password:</label><br>
+            <input id="confirmPassword" type="password" placeholder="Repeat Password">
+            <p id="confirmError" class="error"></p>
+        </div>
+        <p><button type="submit">Sign Up</button></p>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="app.js"></script>
+</body>
+</html
